@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Assignment</title>
+
+    <!-- Bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light text-light justify-content-around">
+            <a class="navbar-brand text-light" href="#">Assignment <span class="font-weight-light h6 ml-3">Chapter 1-7</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0 text-light" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center mt-5">Chapter # 1-7 | Introduction to Javascript | Data Types | Alert | Arithmetic Operators</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="container btn__container">
+            <div class="row p-4">
+                <div class="col gy-5 d-flex flex-wrap gap-4 justify-content-center gap-2">
+                    <button type="button" class="btn btn-danger" id="alert-name">Alert Name</button>
+                    <button type="button" class="btn btn-danger" id="alert-number">Alert Number</button>
+                    <button type="button" class="btn btn-danger" id="show-var-names">Show Variable Names</button>
+                    <button type="button" class="btn btn-danger" id="show-camel-case">Show camelCase Examples</button>
+                    <button type="button" class="btn btn-danger" id="sum-num">Sum 2 Numbers</button>
+                    <button type="button" class="btn btn-danger" id="sub-num">Subtract 2 Numbers</button>
+                    <button type="button" class="btn btn-danger" id="mul-num">Multiply 2 Numbers</button>
+                    <button type="button" class="btn btn-danger" id="divide-num">Divide 2 Numbers</button>
+                    <button type="button" class="btn btn-danger" id="cal-num">Calculate Some Numbers</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center">Original Statement</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="original__statement__container p-2" id="original-statement">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col d-flex justify-content-center mt-3">
+                    <button type="button" class="btn btn-outline-dark mx-auto" id="clear-statement-btn">Clear Statement</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center">Output / Result</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="output__container p-2" id="output">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col d-flex justify-content-center mt-3">
+                    <button type="button" class="btn btn-outline-dark mx-auto" id="clear-output-btn">Clear Output</button>
+                </div>
+            </div>
+        </div>
+
+       
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+nav{
+    background-color: darkblue !important;
+}
+
+.btn__container{
+    border: 0.7px solid rgb(131, 128, 128);
+    border-radius: 8px;
+}
+.btn__container .row .col{
+    gap: 0.5rem;
+}
+
+.original__statement__container{
+    text-align: center;
+    border: 0.7px solid grey;
+    border-radius: 8px;
+    min-height: 5rem;
+}
+.output__container{
+    border: 0.7px solid grey;
+    text-align: center;
+    border-radius: 8px;
+    min-height: 5rem;
+    
+}
