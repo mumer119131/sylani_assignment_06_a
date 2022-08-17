@@ -115,3 +115,10 @@ document.getElementById('cal-num').onclick = function(){
     output.innerHTML = cal
     originalStatement.innerHTML = query
 }
+
+function clearStatement(){
+    originalStatement.innerHTML = ""
+}
+function clearOutput(){
+    output.innerHTML = ""
+}
